@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f5f5; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .box {
+    border: 1px dashed black;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: black;
+  }
+  
+  .full {
+    width: 100%;
+  }
+  
+  .offset {
+    margin-left: 8.33%;
+  }
+
+  .bg-dark {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .bg-light {
+    background-color: #f5f5f5;
+    color: black;
+  }
+  
+  .bg-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .bg-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .bg-accent {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .bg-neutral {
+    background-color: #e9ecef;
+    color: black;
+  }
+  
+
+  .one-third {
+    width: 33.33%;
+  }
+  
+  .two-third {
+    width: 66.66%;
+  }
+  
+  .one-fourth {
+    width: 25%;
+  }
+  
+  .half {
+    width: 50%;
+  }
+  
+  .one-sixth {
+    width: 16.66%;
+  }
+  
+  .seven-twelfth {
+    width: 58.33%;
+  }
+  
+  
+  @media (max-width: 1199.98px) {
+    body {
+      background-color: #007bff;
+    }
+  }
+  
+  @media (max-width: 991.98px) {
+    body {
+      background-color: #28a745;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    body {
+      background-color: #dc3545;
+    }
+  
+    .one-third,
+    .two-third,
+    .one-fourth,
+    .half,
+    .one-sixth,
+    .seven-twelfth {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
